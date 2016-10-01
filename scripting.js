@@ -89,7 +89,7 @@ function weightFunction()
       			document.getElementById("resultf").innerHTML = avg;
 						if (	avg	<	50	)
 						{ 				document.getElementById("resultf").style.background = "#ff6666";
-											document.getElementById("resultf").innerHTML = avg + "% &nbsp; Fail";			}
+											document.getElementById("resultf").innerHTML = avg + "% &nbsp&nbsp;; Fail";			}
 						else { 				document.getElementById("resultf").style.background = "#b3ff99";
 													document.getElementById("resultf").innerHTML = avg  + "% &nbsp; Pass";	}
       	}
