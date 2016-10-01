@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+		<style>
+		html {
+			margin: 0;
+			padding: 10;
+		  background-color: #800000;
+		  border-bottom: 50px solid #800000;
+		}
+		</style>
+<head>
+	<meta charset="utf-8">
+	<title>	CourSys - Formula Tester </title>
+	<link href="_css.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1> <br />
+	Grade Calculator</h1>
+<div>
+  <h2> &nbsp; Activities</h2>
+<p>
+&nbsp;  Give grades to the numeric activities:
+</p>
+
+        <table id="tab">
+            <tr>
+                <th> &nbsp;Name </th>
+                <th> Short Name </th>
+                <th> Weight </th>
+                <th> Grade </th>
+                <th> Percent </th>
+           </tr>
+           <tr>
+              <td>Activity 1 </td>
+              <td> A1</td>
+							<td id="colo"> <input class="weighttt" type="text" value="" id="weighta">					</td>
+              <td id="colo"> <input type="text" numberR="number" value="" id="grade_recieved1" >/
+											<input type="text" numberT="number" value="" id="total1" > </td>
+							<td><p id="result1"> </p></td>
+            </tr>
+            <tr>
+              <td>Activity 2 </td>
+              <td> A2</td>
+              <td id="colo"> <input type="text" number="number" value="" id="weightb">											</td>
+							<td id="colo"> <input type="text" numberR="number" value="" id="grade_recieved2" >/
+											<input type="text" numberT="number" value="" id="total2" > </td>
+							<td> &nbsp;<p id="result2"> </p></td>
+            </tr>
+            <tr>
+               <td>Activity 3</td>
+               <td> A3</td>
+               <td> <input type="text" number="number" value="" id="weightc">											</td>
+							 <td> <input type="text" numberR="number" value="" id="grade_recieved3">/
+								 			<input type="text" numberT="number" value="" id="total3"></td>
+							 <td> &nbsp;<p id="result3"> </p></td>
+             </tr>
+             <tr>
+               <td>Activity 4</td>
+               <td> A4</td>
+               <td> <input type="number" number="number" value="" id="weightd">											</td>
+							 <td> <input type="number" numberR="number" value="" id="grade_recieved4">/
+								 			<input type="number" numberT="number" value="" id="total4">	</td>
+							 <td> &nbsp;<p id="result4"> </p></td>
+             </tr>
+        </table>
+    <h2>&nbsp;Result<p id="resultf">  </p> <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		    <button onclick="weightFunction()" class="b2">  Weighted  </button>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<button onclick="meanFunction();" class="b2">  Mean  </button> <br>
+	</h2>
+
+</div>
+<script src="scripting.js"></script>
+</body>
+
+</html>
+<footer>
+	<p>&copy; <a href="http://www.sfu.ca" title="SFU.ca" target="_blank">SFU.ca</a> | Engaging the World! </a> </p>
+
+</footer>
